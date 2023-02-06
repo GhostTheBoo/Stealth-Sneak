@@ -5041,7 +5041,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/192x1056.dds
+  - name: Transparent/384x2112.dds
 - name: remastered/obj/B_LK100_10.mdlx/-0.dds
   platform: pc
   method: copy
