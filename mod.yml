@@ -5016,7 +5016,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/B_LK100_00.mdlx/-3.dds
   platform: pc
   method: copy
@@ -5036,7 +5036,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/512x512.dds
 - name: remastered/obj/B_LK100_00_RTN.mdlx/-3.dds
   platform: pc
   method: copy
@@ -5056,7 +5056,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/B_LK100_10.mdlx/-3.dds
   platform: pc
   method: copy
@@ -5076,7 +5076,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/B_LK100_10_RTN.mdlx/-3.dds
   platform: pc
   method: copy
@@ -5086,7 +5086,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/B_LK100_20.mdlx/-1.dds
   platform: pc
   method: copy
@@ -5106,7 +5106,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/B_LK100_20_RTN.mdlx/-1.dds
   platform: pc
   method: copy
