@@ -1,0 +1,7535 @@
+title: Stealth Sneak
+originalAuthor: GhostTheBoo
+description: Removes all enemy textures making all enemies completely invisible!
+assets:
+#Heartless
+#--------------------------------------------
+#Shadow
+- name: remastered/obj/M_EX020.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX020_NM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX020_NM_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX020_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX020_WI.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX020_WI_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Soldier
+- name: remastered/obj/M_EX010.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010_NM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010_NM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010_NM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010_NM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010_TR.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010_TR.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010_TR.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010_TR.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010_WI.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010_WI.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010_WI.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX010_WI.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Large Body
+- name: remastered/obj/M_EX050.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX050.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX050.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX050_WI.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX050_WI.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX050_WI.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Silver Rock
+- name: remastered/obj/M_EX110.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Emerald Blues
+- name: remastered/obj/M_EX120.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX120_NM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX120_TR.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Crimson Jazz
+- name: remastered/obj/M_EX130.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX130.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX130_AL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX130_AL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Air Pirate
+- name: remastered/obj/M_EX210.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX210.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX210.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX210.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Trick Ghost
+- name: remastered/obj/M_EX500.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_GM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_GM.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_NM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_NM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_NM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_NM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_NM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_NM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Rabid Dog
+- name: remastered/obj/M_EX510.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Hook Bat
+- name: remastered/obj/M_EX520.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX520_AL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Bookmaster
+- name: remastered/obj/M_EX530.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX530.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX530_TR.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX530_TR.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Minute Bomb
+- name: remastered/obj/M_EX550.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX550_WI.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Hammer Frame
+- name: remastered/obj/M_EX560.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX560.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX560.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX560.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX560_WI.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX560_WI.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX560_WI.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX560_WI.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Bulky Vendor
+- name: remastered/obj/M_EX590.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX590.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX590.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/208x640.dds
+- name: remastered/obj/M_EX590.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x128.dds
+- name: remastered/obj/M_EX590_NM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX590_NM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX590_NM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/208x640.dds
+- name: remastered/obj/M_EX590_NM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x128.dds
+#Fortuneteller
+- name: remastered/obj/M_EX620.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX620.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX620.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX620.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX620.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x128.dds
+- name: remastered/obj/M_EX620.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x64.dds
+- name: remastered/obj/M_EX620_AL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX620_AL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX620_AL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX620_AL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX620_AL.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x128.dds
+- name: remastered/obj/M_EX620_AL.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x64.dds
+#Cannon Gun
+- name: remastered/obj/M_EX650.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX650.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX650_TR.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX650_TR.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Rapid Thruster
+- name: remastered/obj/M_EX660.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX660.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX660_AL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX660_AL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX660_CROWD.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX660_E_CROWD.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX660_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX660_RAW.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX660_WI.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX660_WI.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX660_WI_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX660_WI_RAW.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Driller Mole
+- name: remastered/obj/M_EX700.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX700.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX700.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x896.dds
+- name: remastered/obj/M_EX700.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x896.dds
+- name: remastered/obj/M_EX700_NM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX700_NM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX700_NM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x896.dds
+- name: remastered/obj/M_EX700_NM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x896.dds
+#Lance Soldier
+- name: remastered/obj/M_EX690.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX690.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX690.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Morning Star
+- name: remastered/obj/M_EX710.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX710.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX710.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Fiery Globe
+- name: remastered/obj/M_AL020_FIRE.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_AL020_FIRE2.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_AL020_FIRE_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Icy Cube
+- name: remastered/obj/M_AL020_ICEE.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_AL020_ICEE.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_AL020_ICEE.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x384.dds
+- name: remastered/obj/M_AL020_ICEE2.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_AL020_ICEE_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_AL020_ICEE_RAW.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_AL020_ICEE_RAW.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x384.dds
+#Fat Bandit
+- name: remastered/obj/M_EX060.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX060.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Luna Bandit
+- name: remastered/obj/M_EX630.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX630.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX630.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX630.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Gargoyle Knight
+- name: remastered/obj/M_BB010_SWORD.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_BB010_SWORD.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Gargoyle Warrior
+- name: remastered/obj/M_BB010_AX.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_BB010_AX.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Wight Knight
+- name: remastered/obj/M_EX200.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX200.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX200_NM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX200_NM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Graveyard
+- name: remastered/obj/M_EX790.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_HALLOWEEN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_HALLOWEEN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_HALLOWEEN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_HALLOWEEN.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_HALLOWEEN_NM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_HALLOWEEN_NM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_HALLOWEEN_NM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_HALLOWEEN_NM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Toy Soldier
+- name: remastered/obj/M_EX790_CHRISTMAS.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_CHRISTMAS.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_CHRISTMAS.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_CHRISTMAS.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_CHRISTMAS_NM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_CHRISTMAS_NM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_CHRISTMAS_NM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX790_CHRISTMAS_NM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Aeroplane
+- name: remastered/obj/M_EX540.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX540.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX540.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX540.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX540_WI.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX540_WI.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX540_WI.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX540_WI.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Hot Rod
+- name: remastered/obj/M_EX640.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX640.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX640.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX640_WI.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX640_WI.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX640_WI.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Assault Rider
+- name: remastered/obj/M_EX570.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX570.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX570.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Nightwalker
+- name: remastered/obj/M_EX580.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX580.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX580.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Bolt Tower
+- name: remastered/obj/M_EX800.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX800.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX800_CROWD.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX800_DC.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX800_DC.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX800_E_CROWD.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX800_MU.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX800_MU.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX800_MU_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX800_MU_RAW.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX800_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX800_RAW.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Magnum Loader
+- name: remastered/obj/M_EX600.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX600.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX600_LC.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX600_LC.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX600_LC_ATK.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX600_LC_ATK.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX600_LC_CHG.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX600_LC_CHG.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX600_LC_GRD.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX600_LC_GRD.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Strafer
+- name: remastered/obj/M_EX610.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX610.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX610_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX610_RAW.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Devastator
+- name: remastered/obj/M_EX680.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX680.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX680.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX680.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Living Bone
+- name: remastered/obj/M_EX670.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX670.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX670.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX670.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX670.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX670.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX670.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Shaman
+- name: remastered/obj/M_EX720.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX720.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX720.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Aerial Knocker
+- name: remastered/obj/M_EX780.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX780.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX780.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Tornado Step
+- name: remastered/obj/M_EX730.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Crescendo
+- name: remastered/obj/M_EX740.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX740.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Creeper Plant
+- name: remastered/obj/M_EX750.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX750.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX750.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX750_NM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX750_NM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX750_NM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Armored Knight
+- name: remastered/obj/M_EX760.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX760.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX760_CROWD.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX760_CROWD.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX760_NM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX760_NM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX760_NM_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX760_NM_RAW.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX760_NPC.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX760_NPC.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX760_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX760_RAW.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Surveillance Robot
+- name: remastered/obj/M_EX770.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX770_NPC.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX770_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX770_TR.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX770_TR_RAW.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Neoshadow
+- name: remastered/obj/M_EX420.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX420.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX420_NM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX420_NM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Spring Metal
+- name: remastered/obj/M_EX120_HB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Aerial Viking
+- name: remastered/obj/M_EX210_HB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX210_HB.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX210_HB.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX210_HB.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Magic Phantom
+- name: remastered/obj/M_EX500_HB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_HB.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_HB.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_HB.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_HB.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_HB.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_HB_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_HB_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_HB_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_HB_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_HB_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_HB_GM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX500_HB_GM.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Beffudler
+- name: remastered/obj/M_EX520_HB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Runemaster
+- name: remastered/obj/M_EX530_HB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX530_HB.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Iron Hammer
+- name: remastered/obj/M_EX560_HB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX560_HB.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX560_HB.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX560_HB.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Mad Ride
+- name: remastered/obj/M_EX640_HB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX640_HB.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX640_HB.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Camo Cannon
+- name: remastered/obj/M_EX650_HB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX650_HB.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Lance Warrior
+- name: remastered/obj/M_EX690_HB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX690_HB.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX690_HB.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Reckless
+- name: remastered/obj/M_EX680_HB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX680_HB.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX680_HB.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX680_HB.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Necromancer
+- name: remastered/obj/M_EX720_HB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX720_HB.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX720_HB.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Aerial Champ
+- name: remastered/obj/M_EX780_HB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX780_HB.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX780_HB.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Volcanic Lord
+- name: remastered/obj/B_AL100_1ST.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_1ST.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/512x512.dds
+- name: remastered/obj/B_AL100_1ST.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_1ST.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_1ST.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_1ST.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_1ST.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/512x1024.dds
+- name: remastered/obj/B_AL100_1ST.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_FIRE.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_FIRE.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/512x512.dds
+- name: remastered/obj/B_AL100_FIRE.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_FIRE.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_FIRE.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_FIRE.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_FIRE.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/512x1024.dds
+- name: remastered/obj/B_AL100_FIRE.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_FIRE_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_FIRE_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_FIRE_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_FIRE_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_FIRE_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_FIRE_GM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_FIRE_GM.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Blizzard Lord
+- name: remastered/obj/B_AL100_2ND.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_2ND.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_2ND.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_2ND.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_2ND.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_2ND.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_2ND.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE_GM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL100_ICE_GM.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Thresholder
+- name: remastered/obj/B_BB100.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB100.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB100.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB100.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB100_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB100_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB100_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB100_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB100_TSURU.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB100_TSURU.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB100_TSURU.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB100_TSURU.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Possessor
+- name: remastered/obj/B_BB130_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB130_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Shadow Stalker
+- name: remastered/obj/B_BB120.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB120.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB120_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB120_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB120_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/512x256.dds
+- name: remastered/obj/B_BB120_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/512x256.dds
+- name: remastered/obj/B_BB120_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_BB050.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_BB050.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_BB050.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_BB050.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/512x1792.dds
+- name: remastered/obj/F_BB050.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_BB050.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_BB060.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_BB060.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_BB060.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_BB060.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_BB060.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_BB060.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_BB080.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_BB080.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Dark Thorn
+- name: remastered/obj/B_BB110.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB110.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_BB110.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Illuminator
+- name: remastered/obj/B_CA000.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA000.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Grim Reaper
+- name: remastered/obj/B_CA050.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA050.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA050.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA050.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA050.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA050.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA050.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA050.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA050.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA050_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA050_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA050_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA050_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Groundshaker
+- name: remastered/obj/B_LK120.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-12.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-13.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-14.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-15.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-16.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-12.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-13.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-14.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-15.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-16.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK120_GM.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Prison Keeper
+- name: remastered/obj/B_NM100.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100.mdlx/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100.mdlx/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100.mdlx/-12.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM100_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Storm Rider
+- name: remastered/obj/B_MU120.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU120.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU120.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU120.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU120.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU120.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU120_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU120_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU120_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU120_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU120_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU120_GM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#No. 1
+- name: remastered/obj/M_EX350_01.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_01.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_01.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#No. 2
+- name: remastered/obj/M_EX350_02.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_02.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_02.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_02_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_02_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_02_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#No. 3
+- name: remastered/obj/M_EX350_03.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_03.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_03.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#No. 4
+- name: remastered/obj/M_EX350_04.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_04.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_04.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#No. 5
+- name: remastered/obj/M_EX350_05.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_05.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_05.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#No. 6
+- name: remastered/obj/M_EX350_06.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_06.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_06.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_06_SU.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_06_SU.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_06_SU.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#No. 7
+- name: remastered/obj/M_EX350_07.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_07.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_07.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#No. 8
+- name: remastered/obj/M_EX350_08.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_08.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_08.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#No. 9
+- name: remastered/obj/M_EX350_09.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_09.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_09.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#No. 10
+- name: remastered/obj/M_EX350_10.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_10.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_10.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#No. 11
+- name: remastered/obj/M_EX350_11.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_11.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_11.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_11_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_11_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_11_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#No. 12
+- name: remastered/obj/M_EX350_12.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_12.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_12.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#No. 13
+- name: remastered/obj/M_EX350_13.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX350_13.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x832.dds
+- name: remastered/obj/M_EX350_13.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#--------------------------------------------
+#Nobodies
+#--------------------------------------------
+#Dusk
+- name: remastered/obj/H_EX990.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX990.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX990.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX990.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX990.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX990_E_CROWD.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/1024x2048.dds
+- name: remastered/obj/M_EX990_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX990_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX990_RTN_FIXCOLOR.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX990_RTN_FIXCOLOR.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX990_ZIPPER_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX990_ZIPPER_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Creeper
+- name: remastered/obj/M_EX880.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Dragoon
+- name: remastered/obj/M_EX890.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX890.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Assassin
+- name: remastered/obj/M_EX900.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX900.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Samurai
+- name: remastered/obj/M_EX910.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX910.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Sniper
+- name: remastered/obj/M_EX920.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX920.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX920.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX920.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Dancer
+- name: remastered/obj/M_EX930.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX930.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Berserker
+- name: remastered/obj/M_EX940.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX940.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX940.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Gambler
+- name: remastered/obj/M_EX950.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX950.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX950.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/512x256.dds
+#Sorcerer
+- name: remastered/obj/M_EX960.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX960.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Twilight Thorn
+- name: remastered/obj/B_EX100.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX100.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX100.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX100.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX100.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX100.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX100.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#--------------------------------------------
+#Other Enemies
+#--------------------------------------------
+#Shadow Roxas
+- name: remastered/obj/P_EX130.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/P_EX130.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Pirate A
+- name: remastered/obj/B_CA020.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x256.dds
+- name: remastered/obj/B_CA020.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x32.dds
+- name: remastered/obj/B_CA020.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x64.dds
+- name: remastered/obj/B_CA020_HUM_OKA.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA020_HUM_OKA.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/112x192.dds
+- name: remastered/obj/B_CA020_HUM_OKA.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x144.dds
+- name: remastered/obj/B_CA020_HUM_OKA.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA020_SKL_OKA.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA020_SKL_OKA.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA020_SKL_OKA.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x96.dds
+#Pirate B
+- name: remastered/obj/B_CA030.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x256.dds
+- name: remastered/obj/B_CA030.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x32.dds
+- name: remastered/obj/B_CA030.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x32.dds
+- name: remastered/obj/B_CA030.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA030_HUM_OKA.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA030_HUM_OKA.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/112x64.dds
+- name: remastered/obj/B_CA030_HUM_OKA.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA030_SKL_OKA.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA030_SKL_OKA.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA030_SKL_OKA.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x64.dds
+#Pirate C
+- name: remastered/obj/B_CA040.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x256.dds
+- name: remastered/obj/B_CA040.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x32.dds
+- name: remastered/obj/B_CA040.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x32.dds
+- name: remastered/obj/B_CA040.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040.mdlx/US_B_CA040_mdlx0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x256.dds
+- name: remastered/obj/B_CA040.mdlx/US_B_CA040_mdlx1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x32.dds
+- name: remastered/obj/B_CA040.mdlx/US_B_CA040_mdlx2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x32.dds
+- name: remastered/obj/B_CA040.mdlx/US_B_CA040_mdlx3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_HUM_OKA.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_HUM_OKA.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/80x64.dds
+- name: remastered/obj/B_CA040_HUM_OKA.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_HUM_OKA.mdlx/US_B_CA040_HUM_OKA_mdlx0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_HUM_OKA.mdlx/US_B_CA040_HUM_OKA_mdlx1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/80x64.dds
+- name: remastered/obj/B_CA040_HUM_OKA.mdlx/US_B_CA040_HUM_OKA_mdlx2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_PUB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_PUB.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_PUB.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_PUB.mdlx/US_B_CA040_PUB_mdlx0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_PUB.mdlx/US_B_CA040_PUB_mdlx1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_PUB.mdlx/US_B_CA040_PUB_mdlx2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_SKL_OKA.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_SKL_OKA.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_SKL_OKA.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/80x32.dds
+- name: remastered/obj/B_CA040_SKL_OKA.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_SKL_OKA.mdlx/US_B_CA040_SKL_OKA_mdlx0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_SKL_OKA.mdlx/US_B_CA040_SKL_OKA_mdlx1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA040_SKL_OKA.mdlx/US_B_CA040_SKL_OKA_mdlx2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/80x32.dds
+- name: remastered/obj/B_CA040_SKL_OKA.mdlx/US_B_CA040_SKL_OKA_mdlx3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Pirate D
+#--------------------------------------------
+#Other Bosses
+#--------------------------------------------
+#Genie Jafar
+- name: remastered/obj/B_AL020.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL020.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL020.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_AL020.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x480.dds
+- name: remastered/obj/B_AL020.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x384.dds
+- name: remastered/obj/B_AL020.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Water Jafar
+- name: remastered/obj/N_AL070_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_AL070_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_AL070_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_AL070_BTL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_AL070_MATSU.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_AL070_MATSU.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_AL070_MATSU.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_AL070_MATSU.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_AL070_MATSU.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_AL070_MATSU.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_AL070_MATSU.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#The Beast
+- name: remastered/obj/H_BB010.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010_TSURU.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010_TSURU.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010_TSURU.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010_TSURU.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010_TSURU.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010_TSURU.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010_TSURU.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_BB010_TSURU.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Lingering Will
+- name: remastered/obj/B_EX420.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX420.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX420.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Oogie Boogie
+- name: remastered/obj/H_NM010.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_NM010.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_NM010.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_NM010.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Lock Shock, and Barrel
+- name: remastered/obj/N_NM050_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM050_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM050_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x384.dds
+- name: remastered/obj/N_NM050_BTL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x384.dds
+- name: remastered/obj/N_NM050_BTL_2.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM050_BTL_2.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM050_BTL_2.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x384.dds
+- name: remastered/obj/N_NM050_BTL_2.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x384.dds
+- name: remastered/obj/N_NM050_BTL_TOY.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM050_BTL_TOY.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM050_BTL_TOY.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x384.dds
+- name: remastered/obj/N_NM050_BTL_TOY.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x384.dds
+- name: remastered/obj/N_NM050_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM050_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM050_RTN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x384.dds
+- name: remastered/obj/N_NM050_RTN.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x384.dds
+- name: remastered/obj/N_NM060_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM060_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM060_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x128.dds
+- name: remastered/obj/N_NM060_BTL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/32x288.dds
+- name: remastered/obj/N_NM060_BTL_2.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM060_BTL_2.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM060_BTL_2.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x128.dds
+- name: remastered/obj/N_NM060_BTL_2.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/32x288.dds
+- name: remastered/obj/N_NM060_BTL_TOY.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM060_BTL_TOY.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM060_BTL_TOY.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x128.dds
+- name: remastered/obj/N_NM060_BTL_TOY.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/32x288.dds
+- name: remastered/obj/N_NM060_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM060_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM060_RTN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x128.dds
+- name: remastered/obj/N_NM060_RTN.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/32x288.dds
+- name: remastered/obj/N_NM070_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM070_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x256.dds
+- name: remastered/obj/N_NM070_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x384.dds
+- name: remastered/obj/N_NM070_BTL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM070_BTL_2.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM070_BTL_2.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x256.dds
+- name: remastered/obj/N_NM070_BTL_2.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x384.dds
+- name: remastered/obj/N_NM070_BTL_2.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM070_BTL_TOY.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM070_BTL_TOY.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x256.dds
+- name: remastered/obj/N_NM070_BTL_TOY.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x384.dds
+- name: remastered/obj/N_NM070_BTL_TOY.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM070_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_NM070_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x256.dds
+- name: remastered/obj/N_NM070_RTN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x384.dds
+- name: remastered/obj/N_NM070_RTN.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#The Experiment
+- name: remastered/obj/B_NM110.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_GM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_GM.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_GM.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_HEAD.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_HEAD.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_HEAD.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_HEAD.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_HEAD.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_HEAD.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_HEAD.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_HEAD.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_L_ARM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_L_ARM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_L_ARM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_L_ARM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_L_ARM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_L_ARM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_L_ARM.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_L_ARM.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_R_ARM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_R_ARM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_R_ARM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_R_ARM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_R_ARM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_R_ARM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_R_ARM.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_NM110_R_ARM.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Sephiroth
+- name: remastered/obj/N_HB590_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_HB590_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x480.dds
+- name: remastered/obj/N_HB590_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/32x320.dds
+- name: remastered/obj/N_HB590_BTL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_HB590_BTL.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_HB590_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_HB590_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x480.dds
+- name: remastered/obj/N_HB590_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/32x320.dds
+- name: remastered/obj/N_HB590_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_HB590_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_HB590_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_HB590_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x480.dds
+- name: remastered/obj/N_HB590_RTN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/32x320.dds
+- name: remastered/obj/N_HB590_RTN.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_HB590_RTN.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_HB630.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_HB630.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x480.dds
+- name: remastered/obj/N_HB630.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/32x320.dds
+- name: remastered/obj/N_HB630.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_HB630.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Shan-Yu
+- name: remastered/obj/B_MU100.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/112x1536.dds
+- name: remastered/obj/B_MU100.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x880.dds
+- name: remastered/obj/B_MU100.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_GM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_HOOD.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_HOOD.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/112x1536.dds
+- name: remastered/obj/B_MU100_HOOD.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x880.dds
+- name: remastered/obj/B_MU100_HOOD.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_HOOD.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_HOOD.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_HOOD.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/112x1536.dds
+- name: remastered/obj/B_MU100_RTN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/48x880.dds
+- name: remastered/obj/B_MU100_RTN.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_RTN.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_RTN.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU100_RTN.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU110.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_MU110.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/32x160.dds
+#Cerberus
+- name: remastered/obj/B_HE020.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE020.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE020_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE020_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Pete
+- name: remastered/obj/H_EX590.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX590.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX590.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX590.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/N_EX760.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/N_EX760_BTL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_CLSM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_CLSM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_CLSM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/N_EX760_BTL_CLSM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_CLSM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_HERCULES.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_HERCULES.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_HERCULES.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/N_EX760_BTL_HERCULES.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_HERCULES.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_MEGARA.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_MEGARA.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_MEGARA.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/N_EX760_BTL_MEGARA.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_MEGARA.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_WILLY.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_WILLY.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_WILLY.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/N_EX760_BTL_WILLY.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_BTL_WILLY.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_RTN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/N_EX760_RTN.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX760_RTN.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Old Pete
+- name: remastered/obj/N_WI010_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_WI010_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x704.dds
+- name: remastered/obj/N_WI010_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_WI010_BTL_VS.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_WI010_BTL_VS.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x704.dds
+- name: remastered/obj/N_WI010_BTL_VS.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_WI010_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_WI010_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x704.dds
+- name: remastered/obj/N_WI010_RTN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#The Hydra
+- name: remastered/obj/B_HE100.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE100.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE100.mdlx/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/240x288.dds
+- name: remastered/obj/B_HE100.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE100.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/240x192.dds
+- name: remastered/obj/B_HE100.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE100.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/512x256.dds
+- name: remastered/obj/B_HE100.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x256.dds
+- name: remastered/obj/B_HE100.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/240x288.dds
+- name: remastered/obj/B_HE100.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/240x288.dds
+- name: remastered/obj/B_HE100.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/240x288.dds
+- name: remastered/obj/B_HE100_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE100_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE100_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE100_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/224x192.dds
+- name: remastered/obj/B_HE100_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE100_GM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/512x256.dds
+- name: remastered/obj/B_HE100_GM.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x256.dds
+- name: remastered/obj/B_HE100_GM.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/224x192.dds
+- name: remastered/obj/B_HE100_GM.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/224x192.dds
+- name: remastered/obj/B_HE110.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE110.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x128.dds
+- name: remastered/obj/B_HE110.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE110.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/240x192.dds
+- name: remastered/obj/B_HE110.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE110.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Hades
+- name: remastered/obj/B_HE030.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/B_HE030.mdlx/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x128.dds
+- name: remastered/obj/B_HE030.mdlx/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x128.dds
+- name: remastered/obj/B_HE030.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x768.dds
+- name: remastered/obj/B_HE030.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/B_HE030.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x768.dds
+- name: remastered/obj/B_HE030_CLSM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_CLSM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/B_HE030_CLSM.mdlx/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x128.dds
+- name: remastered/obj/B_HE030_CLSM.mdlx/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x128.dds
+- name: remastered/obj/B_HE030_CLSM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_CLSM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_CLSM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x768.dds
+- name: remastered/obj/B_HE030_CLSM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_CLSM.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/B_HE030_CLSM.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_CLSM.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_CLSM.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x768.dds
+- name: remastered/obj/B_HE030_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x192.dds
+- name: remastered/obj/B_HE030_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x128.dds
+- name: remastered/obj/B_HE030_GM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x128.dds
+- name: remastered/obj/B_HE030_HE05.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_HE05.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/B_HE030_HE05.mdlx/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x128.dds
+- name: remastered/obj/B_HE030_HE05.mdlx/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x128.dds
+- name: remastered/obj/B_HE030_HE05.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_HE05.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_HE05.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x768.dds
+- name: remastered/obj/B_HE030_HE05.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_HE05.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/B_HE030_HE05.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_HE05.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_HE05.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x768.dds
+- name: remastered/obj/B_HE030_NPC_QSATO.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_NPC_QSATO.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/B_HE030_NPC_QSATO.mdlx/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x128.dds
+- name: remastered/obj/B_HE030_NPC_QSATO.mdlx/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x128.dds
+- name: remastered/obj/B_HE030_NPC_QSATO.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_NPC_QSATO.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_NPC_QSATO.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x768.dds
+- name: remastered/obj/B_HE030_NPC_QSATO.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_NPC_QSATO.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/B_HE030_NPC_QSATO.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_NPC_QSATO.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_NPC_QSATO.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x768.dds
+- name: remastered/obj/B_HE030_PART.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_PART.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/B_HE030_PART.mdlx/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x128.dds
+- name: remastered/obj/B_HE030_PART.mdlx/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x128.dds
+- name: remastered/obj/B_HE030_PART.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_PART.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_PART.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x768.dds
+- name: remastered/obj/B_HE030_PART.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_PART.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/B_HE030_PART.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_PART.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_PART.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x768.dds
+- name: remastered/obj/B_HE030_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/B_HE030_RTN.mdlx/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x128.dds
+- name: remastered/obj/B_HE030_RTN.mdlx/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x128.dds
+- name: remastered/obj/B_HE030_RTN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_RTN.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_RTN.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x768.dds
+- name: remastered/obj/B_HE030_RTN.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_RTN.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/B_HE030_RTN.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_RTN.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_HE030_RTN.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x768.dds
+#Barbossa
+- name: remastered/obj/B_CA010.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010.mdlx/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_HUM_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_HUM_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_HUM_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_HUM_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_HUM_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/112x96.dds
+- name: remastered/obj/B_CA010_HUM_GM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_HUM_NPC.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_HUM_NPC.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_HUM_NPC.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_HUM_NPC.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_HUM_NPC.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/112x288.dds
+- name: remastered/obj/B_CA010_HUM_NPC.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x768.dds
+- name: remastered/obj/B_CA010_HUM_NPC.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_SKL_NPC.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_SKL_NPC.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_SKL_NPC.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_SKL_NPC.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_CA010_SKL_NPC.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Hyenas
+- name: remastered/obj/B_LK100.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/384x2112.dds
+- name: remastered/obj/B_LK100_00.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_00.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_00.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_00.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x1056.dds
+- name: remastered/obj/B_LK100_00_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_00_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_00_RTN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_00_RTN.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x1056.dds
+- name: remastered/obj/B_LK100_10.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_10.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_10.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_10.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x576.dds
+- name: remastered/obj/B_LK100_10_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_10_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_10_RTN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_10_RTN.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x576.dds
+- name: remastered/obj/B_LK100_20.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_20.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x576.dds
+- name: remastered/obj/B_LK100_20.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_20.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_20_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_20_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x576.dds
+- name: remastered/obj/B_LK100_20_RTN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK100_20_RTN.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Scar
+- name: remastered/obj/B_LK110.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK110.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK110.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/160x3584.dds
+- name: remastered/obj/B_LK110_MATSU.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK110_MATSU.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK110_MATSU.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/160x3584.dds
+- name: remastered/obj/B_LK110_PHANTOM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK110_PHANTOM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_LK110_PHANTOM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/160x3584.dds
+#Hostile Program
+- name: remastered/obj/B_TR000.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_TR000.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_TR000.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_TR000.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_TR000.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_TR000_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_TR000_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_TR000_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_TR000_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_TR000_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Sark
+- name: remastered/obj/N_TR010_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_TR010_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_TR010_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/224x1920.dds
+- name: remastered/obj/N_TR010_BTL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/224x896.dds
+- name: remastered/obj/N_TR010_BTL.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_TR010_BTL_L.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_TR010_BTL_L.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_TR010_BTL_L.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/224x1920.dds
+- name: remastered/obj/N_TR010_BTL_L.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/224x896.dds
+- name: remastered/obj/N_TR010_BTL_L.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_TR010_BTL_L.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_TR010_TSURU.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_TR010_TSURU.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_TR010_TSURU.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/224x1920.dds
+- name: remastered/obj/N_TR010_TSURU.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/224x896.dds
+- name: remastered/obj/N_TR010_TSURU.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#MCP
+- name: remastered/obj/B_TR020.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_TR020.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_TR050.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_TR060.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_TR060.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_TR570.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_TR580_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_TR580_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#--------------------------------------------
+#Organization 13
+#--------------------------------------------
+#Xemnas
+- name: remastered/obj/B_EX170.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX170.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x320.dds
+- name: remastered/obj/B_EX170.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LAST.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LAST.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LAST.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LAST.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LAST.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX170_LAST.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x320.dds
+- name: remastered/obj/B_EX170_LAST.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LAST_LV99.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LAST_LV99.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LAST_LV99.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LAST_LV99.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LAST_LV99.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX170_LAST_LV99.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x320.dds
+- name: remastered/obj/B_EX170_LAST_LV99.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LV99.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LV99.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LV99.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LV99.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_LV99.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX170_LV99.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x320.dds
+- name: remastered/obj/B_EX170_LV99.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_RTN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_RTN.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX170_RTN.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX170_RTN.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x320.dds
+- name: remastered/obj/B_EX170_RTN.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX180.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX180.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX180.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX180.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX180.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX180.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX180.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX180.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX260.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX260.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX260.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX260.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX280.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX280.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX290.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX310.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX320.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX330.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX330.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX330.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX330.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX330.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX330.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX330.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX330.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX330.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX340.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/EH_G_EX120.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/EH_G_EX250.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/EH_G_EX250_FLY.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/EH_G_EX290.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/EH_G_EX320.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-12.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-13.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-14.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-15.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-16.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-17.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-18.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-19.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-20.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-21.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-22.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-23.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-24.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-25.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-26.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-27.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH070.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-12.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-13.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-14.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-15.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-16.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-17.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-18.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-19.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-20.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-21.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-22.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-23.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-24.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-25.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-26.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH080.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH100.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH100.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH100.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH100.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH100.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH100.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH100.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH100.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/F_EH100.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Xigbar
+- name: remastered/obj/B_EX140.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX140.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x480.dds
+- name: remastered/obj/B_EX140.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140_GM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140_GM.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140_LV99.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140_LV99.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140_LV99.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140_LV99.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140_LV99.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX140_LV99.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x480.dds
+- name: remastered/obj/B_EX140_LV99.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX140_LV99.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX570.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX570.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX570.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX570.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX570.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX570.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX570.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX570.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Xaldin
+- name: remastered/obj/B_EX130.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX130.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX130.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x2048.dds
+- name: remastered/obj/B_EX130.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x320.dds
+- name: remastered/obj/B_EX130.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX130.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX130_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX130_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX130_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x512.dds
+- name: remastered/obj/B_EX130_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX130_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX130_LV99.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX130_LV99.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX130_LV99.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x2048.dds
+- name: remastered/obj/B_EX130_LV99.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x320.dds
+- name: remastered/obj/B_EX130_LV99.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX130_LV99.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX670.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX670.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX670.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX670.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX670.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Vexen
+- name: remastered/obj/H_CM040.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM040.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM040.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM040.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM040.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM040.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM040.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM040.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM040.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x768.dds
+- name: remastered/obj/N_CM040.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/N_CM040.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM040_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM040_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM040_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM040_BTL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x768.dds
+- name: remastered/obj/N_CM040_BTL.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/N_CM040_BTL.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM040_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM040_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM040_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM040_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM040_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Anti-Sora
+- name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x512.dds
+#Lexaeus
+- name: remastered/obj/H_CM020.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM020.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM020.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM020.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM020.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM020.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM020.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM020.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM020.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/N_CM020.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/N_CM020.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM020_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM020_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM020_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM020_BTL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/N_CM020_BTL.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x384.dds
+- name: remastered/obj/N_CM020_BTL.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Zexion
+- name: remastered/obj/B_EX370.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX370.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX370.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX370.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX370.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX370.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x960.dds
+- name: remastered/obj/B_EX370.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x320.dds
+- name: remastered/obj/B_EX370.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX380.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM030.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM030.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM030.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM030.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM030.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Saix
+- name: remastered/obj/B_EX160.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x960.dds
+- name: remastered/obj/B_EX160.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x576.dds
+- name: remastered/obj/B_EX160.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x960.dds
+- name: remastered/obj/B_EX160_GM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x576.dds
+- name: remastered/obj/B_EX160_GM.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_GM.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_GM.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_GM.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_LV99.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_LV99.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_LV99.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_LV99.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_LV99.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x960.dds
+- name: remastered/obj/B_EX160_LV99.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/64x576.dds
+- name: remastered/obj/B_EX160_LV99.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_LV99.mdlx/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_LV99.mdlx/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX160_LV99.mdlx/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX680.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX680.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX680.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX680.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX680.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX680.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX680.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Axel
+- name: remastered/obj/B_EX110.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX110.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/B_EX110.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_FRIEND.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_FRIEND.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_FRIEND.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX110_FRIEND.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/B_EX110_FRIEND.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_FRIEND.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_GM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_LV99.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_LV99.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_LV99.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX110_LV99.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/B_EX110_LV99.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_LV99.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_RTN.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_RTN.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_RTN.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX110_RTN.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/B_EX110_RTN.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_RTN.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_SKIRMISH.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_SKIRMISH.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_SKIRMISH.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX110_SKIRMISH.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x576.dds
+- name: remastered/obj/B_EX110_SKIRMISH.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX110_SKIRMISH.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX520.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX520.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX520.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX520.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Demyx
+- name: remastered/obj/B_EX120.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX120.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x320.dds
+- name: remastered/obj/B_EX120.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120_GM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120_GM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120_GM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120_GM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120_HB.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120_HB.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120_HB.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX120_HB.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x320.dds
+- name: remastered/obj/B_EX120_HB.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120_HB.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120_HB_LV99.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120_HB_LV99.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120_HB_LV99.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/B_EX120_HB_LV99.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/96x320.dds
+- name: remastered/obj/B_EX120_HB_LV99.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX120_HB_LV99.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX580.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX580.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX580.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX580.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX580.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX580.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX580.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX880_DANCER.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX880_DANCER.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX880_DANCER.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX880_DANCER_EH.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX880_DANCER_EH.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX880_DANCER_EH.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX880_DANCER_LV99.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX880_DANCER_LV99.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/M_EX880_DANCER_LV99.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Luxord
+- name: remastered/obj/B_EX150.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX150.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX150.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX150.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x864.dds
+- name: remastered/obj/B_EX150.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x576.dds
+- name: remastered/obj/B_EX150.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX150.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX150_LV99.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX150_LV99.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX150_LV99.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX150_LV99.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x864.dds
+- name: remastered/obj/B_EX150_LV99.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/128x576.dds
+- name: remastered/obj/B_EX150_LV99.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX150_LV99.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX210.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX210.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX210.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX210.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX210_EH.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX210_EH.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX210_EH.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX210_EH.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX690.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX690.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX690.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX690.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX690.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_EX690.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Marluxia
+- name: remastered/obj/H_CM000.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM000.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM000.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM000.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/H_CM000.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM000.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM000.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM000.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM000.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/N_CM000.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x448.dds
+- name: remastered/obj/N_CM000.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM000.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM000_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM000_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM000_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM000_BTL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x768.dds
+- name: remastered/obj/N_CM000_BTL.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x448.dds
+- name: remastered/obj/N_CM000_BTL.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM000_BTL.mdlx/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Larxene
+- name: remastered/obj/B_EX400.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX400.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX400.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x864.dds
+- name: remastered/obj/B_EX400.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x320.dds
+- name: remastered/obj/B_EX400.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX400.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM010.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM010.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM010.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x864.dds
+- name: remastered/obj/N_CM010.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x320.dds
+- name: remastered/obj/N_CM010.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM010.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM010_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM010_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM010_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/256x864.dds
+- name: remastered/obj/N_CM010_BTL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/192x320.dds
+- name: remastered/obj/N_CM010_BTL.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_CM010_BTL.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+#Roxas
+- name: remastered/obj/B_EX390.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX390.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX390.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX390.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/B_EX390.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX820.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX820.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX820.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX820_BTL.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX820_BTL.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX820_BTL.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX820_BTL.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/N_EX820_BTL.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/W_EX010_ROXAS_DARK.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
+- name: remastered/obj/W_EX010_ROXAS_LIGHT.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Transparent/square.dds
