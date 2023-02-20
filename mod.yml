@@ -2433,7 +2433,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_01.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2449,7 +2449,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_02.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2464,7 +2464,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_02_GM.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2480,7 +2480,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_03.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2496,7 +2496,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_04.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2512,7 +2512,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_05.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2528,7 +2528,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_06.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2543,7 +2543,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_06_SU.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2559,7 +2559,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_07.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2575,7 +2575,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_08.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2591,7 +2591,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_09.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2607,7 +2607,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_10.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2623,7 +2623,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_11.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2638,7 +2638,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_11_GM.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2654,7 +2654,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_12.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2670,7 +2670,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/M_EX350_13.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2929,7 +2929,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/512x256.dds
 - name: remastered/obj/B_CA020_HUM_OKA.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2949,7 +2949,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/512x256.dds
 - name: remastered/obj/B_CA020_SKL_OKA.mdlx/-1.dds
   platform: pc
   method: copy
@@ -2985,7 +2985,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/512x256.dds
 - name: remastered/obj/B_CA030_HUM_OKA.mdlx/-1.dds
   platform: pc
   method: copy
@@ -3005,7 +3005,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/512x256.dds
 - name: remastered/obj/B_CA030_SKL_OKA.mdlx/-2.dds
   platform: pc
   method: copy
@@ -3056,7 +3056,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/512x256.dds
 - name: remastered/obj/B_CA040_HUM_OKA.mdlx/-1.dds
   platform: pc
   method: copy
@@ -3071,7 +3071,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/512x256.dds
 - name: remastered/obj/B_CA040_HUM_OKA.mdlx/US_B_CA040_HUM_OKA_mdlx1.dds
   platform: pc
   method: copy
@@ -3121,7 +3121,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/512x256.dds
 - name: remastered/obj/B_CA040_SKL_OKA.mdlx/-2.dds
   platform: pc
   method: copy
@@ -3141,7 +3141,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/512x256.dds
 - name: remastered/obj/B_CA040_SKL_OKA.mdlx/US_B_CA040_SKL_OKA_mdlx2.dds
   platform: pc
   method: copy
@@ -4870,12 +4870,12 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/B_CA010.mdlx/-6.dds
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/112x48.dds
 - name: remastered/obj/B_CA010.mdlx/-7.dds
   platform: pc
   method: copy
@@ -4910,7 +4910,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/B_CA010_HUM_GM.mdlx/-4.dds
   platform: pc
   method: copy
@@ -4940,7 +4940,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Transparent/square.dds
+  - name: Transparent/256x256.dds
 - name: remastered/obj/B_CA010_HUM_NPC.mdlx/-4.dds
   platform: pc
   method: copy
